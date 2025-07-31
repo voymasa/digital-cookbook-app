@@ -1,0 +1,25 @@
+name: lab_3
+description: "Lab 3 - Recipe from MealDb api project"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.4.0
+  sembast: ^3.8.5+1
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  flutter_linkify: ^6.0.0
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
